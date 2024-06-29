@@ -2,7 +2,11 @@
   "trailingSlash": "auto",
   "routes": [
     {
-      "route": "/*",
+      "route": "/*.js",
+      "allowedRoles": ["authenticated"]
+    },
+    {
+      "route": "/*.html",
       "allowedRoles": ["authenticated"]
     },
     {
